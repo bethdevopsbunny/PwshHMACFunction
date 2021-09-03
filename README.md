@@ -1,5 +1,5 @@
-Azure Function in Powershell with HMAC Authentication 
-______________
+# Azure Function in Powershell with HMAC Authentication 
+
 
 Template HTTP Trigger Function 
 using .NET System.Security.Cryptography for HMAC Auth
