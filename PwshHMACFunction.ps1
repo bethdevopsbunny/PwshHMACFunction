@@ -33,7 +33,7 @@ if($null -eq $Request.rawbody){
             
         }
         
-        #$GeneratedHMAC  = Generate-HMAC -RawBodyPayload $Request.rawbody -Base64Key $ENV:SigningKey
+        $GeneratedHMAC  = Generate-HMAC -RawBodyPayload $Request.rawbody -Base64Key $ENV:SigningKey
        
         if ($GeneratedHMAC -eq $Request.headers.authorization){   
             
