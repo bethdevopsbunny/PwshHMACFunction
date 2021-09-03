@@ -1,12 +1,12 @@
-# Azure Function in Powershell with HMAC Authentication 
+# Powershell Azure Function Using HMAC Authentication 
 
 
 Template HTTP Trigger Function 
-using .NET System.Security.Cryptography for HMAC Auth
+uses .NET System.Security.Cryptography for HMAC Auth
 
 
 
-reciver must replace boiler plate code in azure function and update 
+receiver must replace boiler plate code in azure function and update 
 request actions within 'passed authentication code.' note
 and add the chosen key into the app settings under name 'SigningKey'
 
